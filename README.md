@@ -13,4 +13,8 @@ snaphotty uses the configuration file created by the AWS cli.
 
 ## How to Run the command?
 
-  pipenv run python snapshotty/snapshotty.py
+  pipenv run python snapshotty/snapshotty.py <command> <--project=PROJECT>
+
+  *command* is list, start, or stop
+  *project* is optional
+
